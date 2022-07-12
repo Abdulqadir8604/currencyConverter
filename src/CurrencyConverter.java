@@ -35,8 +35,6 @@ public class CurrencyConverter {
         sendHttpGETRequest(fromCode, toCode, amount, token);
 
 
-        System.out.println("Thank you!!");
-
         System.out.println("Thank you!! for using our services");
 
 
