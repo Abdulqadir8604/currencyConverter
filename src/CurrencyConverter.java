@@ -41,7 +41,7 @@ public class CurrencyConverter {
     }
 
     private static void sendHttpGETRequest(String fromCode, String toCode, double amount, String token) throws IOException {
-        String GET_URL = "https://rates.hirak.site/rate.php?from="+fromCode+"&to="+toCode+"&token="+token;
+        String GET_URL = "https://rates.hirak.site/rate.php?from="+fromCode+"&to="+toCode+"&token="+token; //change api in future
         URL url = new URL(GET_URL);
         HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
         httpURLConnection.setRequestMethod("GET");
